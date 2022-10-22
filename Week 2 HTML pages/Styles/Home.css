@@ -1,0 +1,42 @@
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    /* border: 1px solid; */
+    width: 250px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 500px;
+    justify-content: space-around;
+}
+
+header {
+    display: flex; justify-content: space-around;
+    background-color: orange;
+}
+
+.logo-text {
+    font-size: 27px;
+    display: inline-block;
+}
+
+.MRK {
+    color: rgb(250, 249, 249);
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
